@@ -3,28 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 
+	<link rel="stylesheet" href="css/style.css">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" crossorigin="anonymous">
 
 	<title>index</title>
 </head>
-<body>
+<body style="background-color:#eeeeee;">
 
 	<!-- HEADER -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12" style="background-color:#0c3a52;">
 				<div class="col-md-6 text-center">
 					<p>logo</p>
 				</div>
 				<div class="col-md-6 text-center">
-					<h1>DIÓCESIS DE PEREIRA</h1>
-					<p>PARA QUE CRISTO ESTÉ EN TÚ CORAZÓN Y EN TUS LABIOS</p>
+					<h1 style="color:#feffff;">DIÓCESIS DE PEREIRA</h1>
+					<p style="color:#eeeee4;">PARA QUE CRISTO ESTÉ EN TÚ CORAZÓN Y EN TUS LABIOS</p>
 				</div>
 			</div>
-			<div class="col-md-12">
+			<div class="menu-margin-corrector col-md-12">
 				<!-- Menu -->
-				<nav class="navbar navbar-default" style="letter-spacing:1px;">
+				<nav class="background-nav navbar navbar-default">
 					<div class="container-fluid">
 						<!-- icono mostrado en modo móvil-->
 						<div class="navbar-header page-scroll">
@@ -36,32 +38,32 @@
 							</button>
 						</div>
 						<!-- Contenido del navbar -->
-						<div class="menu-center collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 							<ul class="nav navbar-nav navbar-right">
 								<li class="hidden">
 												<a href="portafolio.php"></a>
 								</li>
 								<li style="font-size:12px;">
-									<a class="page-scroll" href="index.php" style="letter-spacing:5px;"><b>INICIO</b></a>
+									<a class="background-nav-links page-scroll" href="index.php"><b>INICIO</b></a>
 								</li>
 
 								<li style="font-size:12px;">
-									<a class="page-scroll" href="contacto.php" style="letter-spacing:5px;"><b>DIRECTORIO</b></a>
+									<a class="background-nav-links page-scroll" href="contacto.php"><b>DIRECTORIO</b></a>
 								</li>
 								<li style="font-size:12px;">
-									<a class="page-scroll" href="contacto.php" style="letter-spacing:5px;"><b>EVANGELIO</b></a>
+									<a class="background-nav-links page-scroll" href="contacto.php"><b>EVANGELIO</b></a>
 								</li>
 								<li style="font-size:12px;">
-									<a class="page-scroll" href="contacto.php" style="letter-spacing:5px;"><b>DOCUMENTOS</b></a>
+									<a class="background-nav-links page-scroll" href="contacto.php"><b>DOCUMENTOS</b></a>
 								</li>
 								<li style="font-size:12px;">
-									<a class="page-scroll" href="contacto.php" style="letter-spacing:5px;"><b>CENTROS DE RETIRO</b></a>
+									<a class="background-nav-links page-scroll" href="contacto.php"><b>CENTROS DE RETIRO</b></a>
 								</li>
 								<li style="font-size:12px;">
-									<a class="page-scroll" href="contacto.php" style="letter-spacing:5px;"><b>VIACRÍAS</b></a>
+									<a class="background-nav-links page-scroll" href="contacto.php"><b>VIACRÍAS</b></a>
 								</li>
 								<li style="font-size:12px;">
-									<a class="page-scroll" href="contacto.php" style="letter-spacing:5px;"><b>CONTACTO</b></a>
+									<a class="background-nav-links page-scroll" href="contacto.php"><b>CONTACTO</b></a>
 								</li>
 							</ul>
 						</div>
@@ -158,20 +160,20 @@
 	</section>
 
 	<!-- FOOTER -->
-	<section class="container-flui">
+	<section class="footer-style container-fluid">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-4">
-					<p>ENLACES DE INTERÉS</p>
-					<ul>
-						<li>Vicarías y Pastorales</li>
+					<p class="footer-title">ENLACES DE INTERÉS</p>
+					<ul class="footer-links">
+						<li><a class="enlaces" href="">Vicarías y Pastorales</a></li>
 						<li>Directorio Sacerdotal</li>
 						<li>Directorio Parroquias</li>
 						<li>Descargas</li>
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<p>ENLACES RELACIONADOS</p>
+					<p class="footer-title">ENLACES RELACIONADOS</p>
 					<ul>
 						<li>Vicarías y Pastorales</li>
 						<li>Directorio Sacerdotal</li>
@@ -193,5 +195,7 @@
 	
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </body>
 </html>
