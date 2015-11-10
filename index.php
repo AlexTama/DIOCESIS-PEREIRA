@@ -16,12 +16,15 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-md-12" style="background-color:#0c3a52;">
-				<div class="col-md-6 text-center">
-					<p>logo</p>
+				<div class="col-md-4 text-center">
+					<img src="img/ESCUDO_DIOCESIS.png" alt="" class="logo img-responsive">
 				</div>
-				<div class="col-md-6 text-center">
-					<h1 style="color:#feffff;">DIÓCESIS DE PEREIRA</h1>
-					<p style="color:#eeeee4;">PARA QUE CRISTO ESTÉ EN TÚ CORAZÓN Y EN TUS LABIOS</p>
+				<div class="col-md-8 text-center vertical-header-align">
+					<div>
+						<h1 style="color:#feffff;">DIÓCESIS DE PEREIRA</h1>
+						<p style="color:#eeeee4;">PARA QUE CRISTO ESTÉ EN TÚ CORAZÓN Y EN TUS LABIOS</p>
+						
+					</div>
 				</div>
 			</div>
 			<div class="menu-margin-corrector col-md-12">
@@ -78,7 +81,7 @@
 	<!-- TITLE -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 text-center" style="padding:30px 0;">
 				<h1>DESTACADOS</h1>
 				<hr>
 			</div>
@@ -94,23 +97,23 @@
 			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 			  </ol>
 
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" role="listbox">
 			    <div class="item active">
-			      <img src="..." alt="...">
-			      <div class="carousel-caption">
-			        ...
-			      </div>
+			      <img src="img/slider/auditorio.jpg" alt="...">
 			    </div>
 			    <div class="item">
-			      <img src="..." alt="...">
-			      <div class="carousel-caption">
-			        ...
-			      </div>
+			      <img src="img/slider/emisora.jpg" alt="...">
 			    </div>
-			    ...
+			    <div class="item">
+			      <img src="img/slider/jornada-del-diezmo.jpg" alt="...">
+			    </div>
+			    <div class="item">
+			      <img src="img/slider/santa-maria-de-los-angeles.jpg" alt="...">
+			    </div>
 			  </div>
 
 			  <!-- Controls -->
@@ -130,11 +133,92 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="col-md-8 text-center" style="background-color:#000000;">
-					<h1>NOTICIAS</h1>
+				<h1 class="text-center">NOTICIAS</h1>
+				<!-- NOTICIAS-->
+				<div class="col-md-8 news-content">
+					<!-- SECCIÓN DE NOTICIAS -->
+					<div class="container-fluid" style="background-color:#ffffff; padding-top:40px;">
+						<div class="col-md-4 text-center">
+							<img src="img/comunicaciones.png" alt="" class="img-circle">
+						</div>
+						<div class="col-md-8 text-justify">
+							<div>
+								<h2 style="color:#009eb7;"><b>TÍTULO</b></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni distinctio architecto autem ipsum quam mollitia. Commodi accusantium velit nihil corporis odio sunt aut quaerat, tenetur laboriosam, cupiditate eos quos recusandae.</p>
+								<p style="color:#009eb7;">Por: Comunicaciones En: Noviembre 10 de 2015</p>
+							</div>
+						</div>
+					</div>
+					<!-- SECCIÓN DE NOTICIAS -->
+					<div class="container-fluid" style="background-color:#ffffff; padding-top:40px;">
+						<div class="col-md-4 text-center">
+							<img src="img/comunicaciones.png" alt="" class="img-circle">
+						</div>
+						<div class="col-md-8 text-justify">
+							<div>
+								<h2 style="color:#009eb7;"><b>TÍTULO</b></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni distinctio architecto autem ipsum quam mollitia. Commodi accusantium velit nihil corporis odio sunt aut quaerat, tenetur laboriosam, cupiditate eos quos recusandae.</p>
+								<p style="color:#009eb7;">Por: Comunicaciones En: Noviembre 10 de 2015</p>
+							</div>
+						</div>
+					</div>
+					<!-- SECCIÓN DE NOTICIAS -->
+					<div class="container-fluid" style="background-color:#ffffff; padding-top:40px;">
+						<div class="col-md-4 text-center">
+							<img src="img/comunicaciones.png" alt="" class="img-circle">
+						</div>
+						<div class="col-md-8 text-justify">
+							<div>
+								<h2 style="color:#009eb7;"><b>TÍTULO</b></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni distinctio architecto autem ipsum quam mollitia. Commodi accusantium velit nihil corporis odio sunt aut quaerat, tenetur laboriosam, cupiditate eos quos recusandae.</p>
+								<p style="color:#009eb7;">Por: Comunicaciones En: Noviembre 10 de 2015</p>
+							</div>
+						</div>
+					</div>
+					<!-- SECCIÓN DE NOTICIAS -->
+					<div class="container-fluid" style="background-color:#ffffff; padding-top:40px;">
+						<div class="col-md-4 text-center">
+							<img src="img/comunicaciones.png" alt="" class="img-circle">
+						</div>
+						<div class="col-md-8 text-justify">
+							<div>
+								<h2 style="color:#009eb7;"><b>TÍTULO</b></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni distinctio architecto autem ipsum quam mollitia. Commodi accusantium velit nihil corporis odio sunt aut quaerat, tenetur laboriosam, cupiditate eos quos recusandae.</p>
+								<p style="color:#009eb7;">Por: Comunicaciones En: Noviembre 10 de 2015</p>
+							</div>
+						</div>
+					</div>
+					<!-- PAGINATION -->
+					<div class="container-fluid" style="background-color:#ffffff; padding-top:40px;">
+						
+					</div>
 				</div>
-				<div class="col-md-4 text-center" style="background-color:#dddddd;">
-					<h1>OTROS ENLACES</h1>
+
+				<!-- ENLACES ADICIONALES -->
+				<div class="col-md-4 text-center">
+					<!-- CORREO -->
+					<div class="row links">
+						<img src="img/opened4.svg" alt="" class="img-responsive" style="margin:0 auto; padding-bottom:20px;">
+						<p class="text-center" style="padding-bottom:20px;">
+							Revise su correo electrónpaico
+						</p>
+						<a href="#" class="ghost-button-links" style="letter-spacing:5px;"><b>INGRESAR</b></a>
+					</div>
+					<!-- EMISORA -->
+					<div class="row links" style="margin-top:20px;">
+						<img src="img/comunicaciones.png" alt="" class="img-responsive" style="margin:0 auto; padding-bottom:20px;">
+						<p class="text-center" style="padding-bottom:20px;">
+							Escúchanos en vivo - Radio Católica Pereira
+						</p>
+						<a href="#" class="ghost-button-links" style="letter-spacing:5px;"><b>VISITAR SITIO</b></a>
+					</div>
+					<!-- AGENDA -->
+					<div class="row links" style="margin-top:20px;">
+						<h3 style="color:#009eb7;"><b>AGENDA</b></h3>
+						<div class="text-center" style="background-color:#eeeeee; height:30px; width:350px; margin:20px auto;"></div>
+						<div class="text-center" style="background-color:#eeeeee; height:30px; width:350px; margin:20px auto;"></div>
+						<div class="text-center" style="background-color:#eeeeee; height:30px; width:350px; margin:20px auto;"></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -143,7 +227,7 @@
 	<!-- SOCIAL MEDIA -->
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 text-center style-of-social-networks">
 				<p>FACEBOOK</p>
 				<p>TWITTER</p>
 			</div>
@@ -167,35 +251,37 @@
 					<p class="footer-title">ENLACES DE INTERÉS</p>
 					<ul class="footer-links">
 						<li><a class="enlaces" href="">Vicarías y Pastorales</a></li>
-						<li>Directorio Sacerdotal</li>
-						<li>Directorio Parroquias</li>
-						<li>Descargas</li>
+						<li><a class="enlaces" href="">Directorio Sacerdotal</a></li>
+						<li><a class="enlaces" href="">Directorio Parroquias</a></li>
+						<li><a class="enlaces" href="">Descargas</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4">
 					<p class="footer-title">ENLACES RELACIONADOS</p>
-					<ul>
-						<li>Vicarías y Pastorales</li>
-						<li>Directorio Sacerdotal</li>
-						<li>Directorio Parroquias</li>
-						<li>Descargas</li>
+					<ul class="footer-links">
+						<li><a class="enlaces" href="">Seminario Mayor</a></li>
+						<li><a class="enlaces" href="">Catholic.net</a></li>
+						<li><a class="enlaces" href="">S.S Fransicus</a></li>
+						<li><a class="enlaces" href="">UPC</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 text-center">
-					<img src="" alt="logo diócesis">
+					<img class="img-responsive logo-footer" src="img/ESCUDO_DIOCESIS.png" alt="logo diócesis">
 					<p>Calle 20 #7-40 Pereira - Risaralda(Colombia)</p>
 					<p>Tel: (6) 3248484</p>
 				</div>
 			</div>
-			<footer class="col-md-12 text-center">
+			<footer class="col-md-12 text-center copyright-credits">
 				<p>&copy;2015 Diócesis de Pereira - Desarrollado por Alexander Tamayo Pino</p>
 			</footer> 
 		</div>
 	</section>
 	
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+	
 </body>
 </html>

@@ -14,14 +14,16 @@ html, body {
 	letter-spacing: 5px;
 }
 
-.footer-style{
-	background-color: #0c3a52;
-	color: #019eb1;
-	padding: 50px;
+.copyright-credits{
+	letter-spacing: 2px;
+	padding-top: 50px;
 }
 
-.footer-title{
+.enlaces {
+	border-bottom: 1px solid #019eb1;
+	color: #ffffff !important;
 	letter-spacing: 5px;
+	padding-bottom: 10px;
 }
 
 .footer-links{
@@ -30,16 +32,78 @@ html, body {
 }
 
 .footer-links>li{
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
-.enlaces {
-	border-bottom: 1px solid #019eb1;
-	padding-bottom: 10px; 
+.footer-style{
+	background-color: #0c3a52;
+	color: #019eb1;
+	padding: 40px 50px;
 }
 
+.footer-title{
+	letter-spacing: 5px;
+	padding-left: 25px;
+}
+
+.ghost-button-links{
+	background-color: rgba(255,255,255, 0);
+	border: 0.2em solid #009eb7;
+	color: #009eb7;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 0.2em 1.5em;
+	position: relative;
+	text-decoration: none;
+
+	/*CHANGE COLORS WHIT ANIMATION*/
+	-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.ghost-button-links:hover {
+	color: #ffffff;
+    background: #009eb7;
+    border-color: #009eb7;
+    text-decoration: none;
+}
+
+.links{
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 30px 0px  !important;
+}
+
+.logo{
+	margin: 0 auto !important;
+	padding: 40px 0;
+	width: 120px;
+}
+
+.logo-footer{
+	margin: 0 auto !important;
+	opacity: 0.2;
+	padding-bottom: 20px;
+	width: 30%;
+
+}
 
 .menu-margin-corrector{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
+}
+
+.news-content{
+	height: 843px;
+	overflow: hidden;
+}
+
+.style-of-social-networks{
+	background-color: #0c3a52;
+}
+
+.vertical-header-align{
+	letter-spacing: 5px;
+	padding-top: 5%;
 }
